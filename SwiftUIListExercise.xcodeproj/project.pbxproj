@@ -13,6 +13,7 @@
 		AF4FE974250589C200C2062A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF4FE973250589C200C2062A /* Preview Assets.xcassets */; };
 		AF4FE97F250589C200C2062A /* SwiftUIListExerciseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4FE97E250589C200C2062A /* SwiftUIListExerciseTests.swift */; };
 		AF4FE98A250589C200C2062A /* SwiftUIListExerciseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4FE989250589C200C2062A /* SwiftUIListExerciseUITests.swift */; };
+		AF4FE99825059A5F00C2062A /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4FE99725059A5F00C2062A /* Article.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		AF4FE985250589C200C2062A /* SwiftUIListExerciseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIListExerciseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF4FE989250589C200C2062A /* SwiftUIListExerciseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIListExerciseUITests.swift; sourceTree = "<group>"; };
 		AF4FE98B250589C200C2062A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF4FE99725059A5F00C2062A /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 			children = (
 				AF4FE96C250589BF00C2062A /* SwiftUIListExerciseApp.swift */,
 				AF4FE96E250589BF00C2062A /* ContentView.swift */,
+				AF4FE99725059A5F00C2062A /* Article.swift */,
 				AF4FE970250589C200C2062A /* Assets.xcassets */,
 				AF4FE975250589C200C2062A /* Info.plist */,
 				AF4FE972250589C200C2062A /* Preview Content */,
@@ -261,6 +264,7 @@
 			files = (
 				AF4FE96F250589BF00C2062A /* ContentView.swift in Sources */,
 				AF4FE96D250589BF00C2062A /* SwiftUIListExerciseApp.swift in Sources */,
+				AF4FE99825059A5F00C2062A /* Article.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
