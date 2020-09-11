@@ -14,6 +14,7 @@
 		AF4FE97F250589C200C2062A /* SwiftUIListExerciseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4FE97E250589C200C2062A /* SwiftUIListExerciseTests.swift */; };
 		AF4FE98A250589C200C2062A /* SwiftUIListExerciseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4FE989250589C200C2062A /* SwiftUIListExerciseUITests.swift */; };
 		AF4FE99825059A5F00C2062A /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4FE99725059A5F00C2062A /* Article.swift */; };
+		AFD5A865250BDB770072DDE4 /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD5A864250BDB760072DDE4 /* DetailsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		AF4FE989250589C200C2062A /* SwiftUIListExerciseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIListExerciseUITests.swift; sourceTree = "<group>"; };
 		AF4FE98B250589C200C2062A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AF4FE99725059A5F00C2062A /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
+		AFD5A864250BDB760072DDE4 /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				AF4FE96C250589BF00C2062A /* SwiftUIListExerciseApp.swift */,
 				AF4FE96E250589BF00C2062A /* ContentView.swift */,
+				AFD5A864250BDB760072DDE4 /* DetailsView.swift */,
 				AF4FE99725059A5F00C2062A /* Article.swift */,
 				AF4FE970250589C200C2062A /* Assets.xcassets */,
 				AF4FE975250589C200C2062A /* Info.plist */,
@@ -263,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF4FE96F250589BF00C2062A /* ContentView.swift in Sources */,
+				AFD5A865250BDB770072DDE4 /* DetailsView.swift in Sources */,
 				AF4FE96D250589BF00C2062A /* SwiftUIListExerciseApp.swift in Sources */,
 				AF4FE99825059A5F00C2062A /* Article.swift in Sources */,
 			);
