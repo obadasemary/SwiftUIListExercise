@@ -13,4 +13,5 @@
 <img src="https://github.com/obadasemary/SwiftUIListExercise/blob/PresentedModalViews/swiftui-modal-1.png" alt="HTML5 Icon">
 <img src="https://github.com/obadasemary/SwiftUIListExercise/blob/PresentedModalViews/swiftui-modal-2.jpg" alt="HTML5 Icon">
 <img src="https://github.com/obadasemary/SwiftUIListExercise/blob/PresentedModalViews/swiftui-modal-5.png" alt="HTML5 Icon">
+<img src="https://github.com/obadasemary/SwiftUIListExercise/blob/PresentedModalViews/swiftui-modal-7.png" alt="HTML5 Icon">
 
