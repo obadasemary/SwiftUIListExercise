@@ -22,12 +22,12 @@ struct ContentView: View {
                     }
             }
             .sheet(item: self.$selectedArticle, content: { articles in
-                ArticleDetailsView(article: articles)
+                ArticleDetailView(article: articles)
             })
 //            .sheet(isPresented: self.$showDetailView, content: {
 //
 //                if self.selectedArticle != nil {
-//                    ArticleDetailsView(article: self.selectedArticle!)
+//                    ArticleDetailView(article: self.selectedArticle!)
 //                }
 //            })
             
@@ -42,7 +42,7 @@ struct ContentView: View {
         //
         //                    ArticleRow(article: article)
         //
-        //                    NavigationLink(destination: ArticleDetailsView(article: article)) {
+        //                    NavigationLink(destination: ArticleDetailView(article: article)) {
         //
         //                        EmptyView()
         //                    }
