@@ -9,6 +9,8 @@ import SwiftUI
 
 struct ArticleDetailsView: View {
     
+    @Environment(\.presentationMode) var presentationMode
+    
     var article: Article
     
     var body: some View {
@@ -42,7 +44,7 @@ struct ArticleDetailsView: View {
         .navigationBarBackButtonHidden(true)
         .navigationBarItems(leading:
                                 Button(action: {
-                                    // Navigate to the previous screen
+                                    self.presentationMode.wrappedValue.dismiss()
                                 }, label: {
                                     Image(systemName: "chevron.left.circle.fill")
                                         .font(.largeTitle)
